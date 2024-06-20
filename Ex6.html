@@ -1,0 +1,20 @@
+<html>  
+<head>  
+<title>Таблица степеней двойки</title>  
+</head>  
+<body>  
+<script>  
+document.write("<table border='1'>");  
+document.write("<tr><td align='center'>Степень</td><td align='center'>Значение</td></tr>");  
+  
+for (let i = 0; i <= 10; i++) {  
+document.write("<tr>");  
+ document.write("<td align='center'>2<sup>" + i + "</sup></td>"); 
+document.write("<td align='right'>" + Math.pow(2, i) + "</td>");  
+document.write("</tr>");  
+}  
+document.write("</table>");  
+</script>  
+  
+</body>  
+</html>
